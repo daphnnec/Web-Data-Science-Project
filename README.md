@@ -1,36 +1,33 @@
-# INFO-4617 Final Project
+# The Second Death or the Epstein Archive: INFO-4617 Final Project
 
 **Daphnne Chacon**
 INFO-4617: Web Data Science, CU Boulder
 
-This repository holds my final project for INFO-4617. I am currently deciding between two project ideas:
+## Summary
 
-**Idea A: The Second Death.** How quickly public attention to a person fades after they die, measured by daily Wikipedia pageviews, and whether that fade is slower for people with longer Wikipedia articles.
+This project is deciding between two questions. The first asks how quickly public attention to a person fades after they die, measured by daily Wikipedia pageviews, and whether that fade is slower for people with longer, more detailed Wikipedia articles. The second asks whether email activity and the structure of the correspondence network in the Epstein email archive change around major legal and political events such as lawsuits, investigations, and arrests. The full proposal is in [proposal.md](proposal.md).
 
-**Idea B: Activity in the Epstein Email Archive.** Whether email activity and the correspondence network in the Epstein archive change around major legal and political events.
+## Data
 
-The full proposal, including data sources, methods, ethics, and sample requests, is in [proposal.md](proposal.md).
+To be completed. Idea A will use the Wikimedia Pageviews API and MediaWiki Action API. Idea B will use the Jmail Data API, limited to the House Oversight Committee and Department of Justice releases.
 
-## Repository Structure
+## Methods
 
-```
-.
-├── README.md
-├── proposal.md
-├── requirements.txt
-├── .gitignore
-├── notebooks/
-│   └── 01_sample_requests.ipynb
-└── data/          # local only, not committed
-```
+To be completed.
 
-## Setup
+## Findings
+
+To be completed.
+
+## How to reproduce
+
+To be completed. Initial setup:
 
 ```
 pip install -r requirements.txt
 ```
 
-The sample requests for both ideas are in `notebooks/01_sample_requests.ipynb`. Data files are downloaded locally into `data/` and are not committed to the repository.
+Sample requests are in `notebooks/01_sample_requests.ipynb`. Downloaded data goes in `data/` and is not committed.
 
 ## AI Use
 
